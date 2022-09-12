@@ -98,6 +98,14 @@ button:hover {
 }
 
 @media screen and (max-width: 400px) {
+    .top-container {
+        background: rgb(221, 221, 221);
+        background: linear-gradient(
+            319deg,
+            rgba(221, 221, 221, 1) 0%,
+            rgba(251, 251, 251, 1) 55%
+        );
+    }
     .calculator-container {
         margin-left: 10%;
     }
