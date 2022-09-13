@@ -1,13 +1,5 @@
 let screen = document.getElementById("input");
 
-if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-    )
-) {
-    // true for mobile device
-    document.getElementsByClassName("calculator-container").style.marginLeft = "30%";
-}
 // for all numeric buttons
 for (let i = 0; i < 11; i++) {
     document.querySelectorAll(".numeric_button")[i].addEventListener("click", (event) => {
