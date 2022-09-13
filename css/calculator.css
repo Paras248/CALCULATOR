@@ -96,29 +96,3 @@ button:hover {
 .special-buttons {
     color: #f54e4e;
 }
-
-@media screen and (max-width: 400px) {
-    .top-container {
-        height: 0vh;
-        margin: 0;
-    }
-    .input-container {
-        height: 40%;
-        width: 100%;
-    }
-    .main-container {
-        width: 100%;
-    }
-    button {
-        height: 4rem;
-        width: 4rem;
-    }
-    .calculator-container {
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        position: absolute;
-    }
-}
