@@ -5,6 +5,7 @@
 
 .top-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,35 +22,28 @@
 
 .calculator-container {
     border-radius: 20px;
-}
-
-.input-container {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 80%;
-    background-color: #22252e;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid black;
 }
 
 .main-container {
     text-align: center;
-    width: 80%;
     background-color: #2a2c38;
-    padding: 25px 0px;
+    padding: 25px 34px;
     border-radius: 20px;
     position: relative;
     top: -20px;
     z-index: 1;
-    margin-right: 67px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 input {
+    padding-right: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     outline: none;
     color: white;
-    width: 80%;
+    width: 238px;
     background-color: #22252e;
-    margin-left: 10%;
     border-style: none;
     font-size: 25px;
     height: 200px;
@@ -95,18 +89,4 @@ button:hover {
 
 .special-buttons {
     color: #f54e4e;
-}
-
-@media screen and (max-width: 400px) {
-    .top-container {
-        background: rgb(221, 221, 221);
-        background: linear-gradient(
-            319deg,
-            rgba(221, 221, 221, 1) 0%,
-            rgba(251, 251, 251, 1) 55%
-        );
-    }
-    .calculator-container {
-        margin-left: 10%;
-    }
 }
