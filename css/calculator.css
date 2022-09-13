@@ -99,7 +99,7 @@ button:hover {
 
 @media screen and (max-width: 400px) {
     .top-container {
-        height: 100vh;
+        height: 0vh;
         margin: 0;
     }
     .input-container {
